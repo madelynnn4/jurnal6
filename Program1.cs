@@ -1,24 +1,46 @@
 ﻿using System;
 
-namespace jurnal6;
-
-public class Program1
+namespace jurnal6
 {
-    public static void Main()
+    class Program
     {
-        SayaTubeUser user = new SayaTubeUser("Valentino Bimo");
-        SayaTubeVideo video = new SayaTubeVideo("Video1");
-        SayaTubeVideo video2 = new SayaTubeVideo("Video2");
-        SayaTubeVideo video3 = new SayaTubeVideo("Video3");
-        
-        user.AddVideo(video);
-        user.AddVideo(video2);
-        user.AddVideo(video3);
+        static void Main(string[] args)
+        {
+            try
+            {
+                SayaTubeUser user = new SayaTubeUser("Valentino Bimo");
 
-        video.IncreasePlayCount(500);
-        video2.IncreasePlayCount(1000);
-        video3.IncreasePlayCount(1500);
+                for (int i = 1; i <= 10; i++) 
+                {
+                    try
+                    {
+                        SayaTubeVideo video = new SayaTubeVideo($"Review Film {i} oleh Valentino Bimo");
+                        user.AddVideo(video);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Gagal menambahkan video ke-{i}: {ex.Message}");
+                    }
+                }
 
-        user.PrintAllVideoPlayCount();
+                user.PrintAllVideoPlayCount();
+
+                SayaTubeVideo testVideo = new SayaTubeVideo("Test Video");
+                try
+                {
+                    testVideo.IncreasePlayCount(30000000); 
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error saat menambah play count: {ex.Message}");
+                }
+
+                testVideo.PrintVideoDetails();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Terjadi kesalahan: {ex.Message}");
+            }
+        }
     }
 }

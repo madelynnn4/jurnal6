@@ -1,0 +1,15 @@
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.AssemblyInfoInputs.cache
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.AssemblyInfo.cs
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.csproj.CoreCompileInputs.cache
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.sourcelink.json
+C:\Users\bimov\RiderProjects\jurnal6\bin\Debug\net9.0\jurnal6.exe
+C:\Users\bimov\RiderProjects\jurnal6\bin\Debug\net9.0\jurnal6.deps.json
+C:\Users\bimov\RiderProjects\jurnal6\bin\Debug\net9.0\jurnal6.runtimeconfig.json
+C:\Users\bimov\RiderProjects\jurnal6\bin\Debug\net9.0\jurnal6.dll
+C:\Users\bimov\RiderProjects\jurnal6\bin\Debug\net9.0\jurnal6.pdb
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.dll
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\refint\jurnal6.dll
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.pdb
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\jurnal6.genruntimeconfig.cache
+C:\Users\bimov\RiderProjects\jurnal6\obj\Debug\net9.0\ref\jurnal6.dll
